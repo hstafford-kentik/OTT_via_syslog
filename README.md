@@ -1,3 +1,4 @@
+```
 # OTT_via_syslog
 Basic proof of concept for turning DNS server logs into OTT data
 
@@ -36,3 +37,4 @@ Run this script (maybe in screen, since it's not a daemon)
 You can check to see if it's working by running a tcpdump on dummy0  "sudo tcpdump -i dummy0 port 53"
 
 and viola! https://portal.kentik.com/v4/shared/data-explorer/fcfd05a8fff32ce2/dns-syslog-kprobified
+```
