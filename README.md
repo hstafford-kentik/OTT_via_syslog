@@ -32,6 +32,10 @@ On your remote (or it could be the same server, I suppose) server, create a dumm
 
 lmgtfy:  https://foofunc.com/how-to-create-a-virtual-network-interface-in-ubuntu-20-04/
 
+In order to run the python script, you'll also need to install "scapy" which is a very
+powerful way to create packets in python.  "sudo pip3 install scapy"
+(If you don't have pip3, then "sudo apt install python3-pip")
+
 run kprobe as you normally would for OTT, using the dummy0 interface in promiscious mode.
 Run this script (maybe in screen, since it's not a daemon)
 You can check to see if it's working by running a tcpdump on dummy0  "sudo tcpdump -i dummy0 port 53"
